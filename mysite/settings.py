@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',  #회원과 그룹을 관리 할 수 있게 해주는 app 항상 migrate후 슈퍼 유저 만들 수 있음
     'django.contrib.contenttypes',
